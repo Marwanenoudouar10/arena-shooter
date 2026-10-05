@@ -2,6 +2,17 @@
 
 A 3D first-person arena shooter and aim trainer made with Godot 4.
 
+## Screenshots
+
+![Lobby](docs/screenshots/lobby.jpg)
+
+![Match](docs/screenshots/match.jpg)
+
+| | |
+|---|---|
+| ![Weapons](docs/screenshots/weapons.jpg) | ![Locker](docs/screenshots/locker.jpg) |
+| ![Emotes](docs/screenshots/emotes.jpg) | ![Emote in a match](docs/screenshots/emote-in-match.jpg) |
+
 ## Features
 
 - Tracking mode: a moving enemy that strafes, jumps, dashes and hides behind cover

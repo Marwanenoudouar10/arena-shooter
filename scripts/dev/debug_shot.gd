@@ -1,7 +1,7 @@
 ## Screenshot tool: sets up a scene from flags, waits a moment, saves a PNG and quits.
 ## godot --path . -- --shot=out.png [--menu[=build|settings]] [--flicks] [--map=Cover]
 ##   [--class=Light] [--gun=Striker] [--optic=Holo] [--near] [--hitboxes] [--ads] [--pause]
-##   [--marks] [--close] [--reload=0.4] [--yaw=-30] [--vmside] [--emote=dance]
+##   [--marks] [--close] [--reload=0.4] [--yaw=-30] [--vmside] [--emote=dance] [--clean]
 
 const E := preload("res://scripts/core/enums.gd")
 const Guns := preload("res://scripts/data/guns.gd")
@@ -53,6 +53,8 @@ static func take(g: Node3D, path: String, args: PackedStringArray) -> void:
 			g.update_viewmodel(0.0)
 	if "--vmside" in args:
 		_side_view(g, cam)
+	if "--clean" in args:  # no fps / sens line, for pictures
+		g.hud.info.modulate.a = 0.0
 	await g.get_tree().process_frame
 	await RenderingServer.frame_post_draw
 	g.get_viewport().get_texture().get_image().save_png(path)
