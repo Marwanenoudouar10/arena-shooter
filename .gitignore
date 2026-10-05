@@ -1,0 +1,14 @@
+# Godot
+.godot/
+*.translation
+
+# Blender backups and Python caches
+*.blend1
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Personal notes
+CLAUDE.local.md
