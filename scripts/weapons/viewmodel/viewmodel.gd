@@ -120,10 +120,6 @@ func scope_lens() -> Dictionary:
 	return {"center": center, "radius": center.distance_to(edge)}
 
 
-func is_scope() -> bool:
-	return optic == "Scope"
-
-
 ## Gun position that puts the aiming point (front sight or optic) on the screen centre,
 ## with the stock tucked against your cheek.
 func ads_pose() -> Vector3:

@@ -1,10 +1,9 @@
 Models by Quaternius (quaternius.com), CC0 1.0 public domain, via poly.pizza.
-characters/: Toon Shooter Game Kit (Character Soldier, Character Enemy, Character Hazmat)
 guns/: Ultimate Guns Pack (Assault Rifle variants)
 
 textures/: Poly Haven (polyhaven.com), CC0 1.0: concrete_floor_worn_001, painted_concrete, concrete_wall_008, container_side
-guns/src/: Ultimate Guns Pack by Quaternius (CC0), via poly.pizza: SMGs, snipers, pistols, revolvers, shotguns, bullpup, scope
-characters/real/: Ultimate Modular Men Pack by Quaternius (CC0), via poly.pizza: SWAT, Worker, Punk, Hoodie
+guns/src/: Ultimate Guns Pack by Quaternius (CC0), via poly.pizza: SMG, sniper, pistol, revolver, shotgun, bullpup
+characters/real/: Ultimate Modular Men Pack by Quaternius (CC0), via poly.pizza: Hoodie (source of the character animations)
 
 sounds/: CC0 1.0
   Gunshot Sounds (opengameart.org/content/gunshot-sounds): pistol, rifle, bolt rifle, shotgun recordings, cut by make_sounds.py

@@ -31,7 +31,7 @@ RIGS = {
             "socket_eject": (0.6, -0.12, 0.6), "socket_iron": (2.52, 0.0, 1.04),
         },
     },
-    "rifle_b": {  # AK style: curved magazine, charging handle on the right
+    "rifle_c": {  # AK style: curved magazine, charging handle on the right
         "mag": {"x": (0.7, 1.75), "z_max": 0.3},
         "sockets": {
             "socket_grip": (0.0, 0.0, -0.05), "socket_hand": (2.1, 0.0, 0.38),
@@ -41,7 +41,6 @@ RIGS = {
         },
     },
 }
-RIGS["rifle_c"] = RIGS["rifle_b"]  # same body, different stock
 
 
 for name, rig in RIGS.items():

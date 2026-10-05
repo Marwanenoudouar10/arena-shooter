@@ -12,3 +12,6 @@ __pycache__/
 
 # Personal notes
 CLAUDE.local.md
+
+# Blender preview renders (rebuilt by the pipeline scripts)
+assets/characters/human/previews/

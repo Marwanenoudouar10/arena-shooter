@@ -26,9 +26,6 @@ const SettingsPanel := preload("res://scripts/ui/lobby/settings_panel.gd")
 const Kit := preload("res://scripts/enemies/character_kit.gd")
 
 # The look lives in widgets.gd. These copies stay here because main.gd's pause menu reads them.
-const ACCENT := Widgets.ACCENT
-const PANEL := Widgets.PANEL
-const LINE := Widgets.LINE
 const DIM := Widgets.DIM
 const BIG := Widgets.BIG
 const SMALL := Widgets.SMALL
